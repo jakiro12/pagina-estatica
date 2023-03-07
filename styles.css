@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    display: grid;
+    height: 200vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+}
+main{
+    height: 100%;
+    width: auto;
+    display:  grid;
+    grid-template-columns: 1fr;
+    background-image: url('https://developermedia.com/wp-content/uploads/2020/10/the-programming-skills-developers-think-they-need-1000x667-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-rows: 10% 75% 15%;
+}
+
+footer{
+    outline: 2px black solid;
+    height: 100%;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 30% 25% 20%;
+    background-color: black;
+}
+
+.opciones{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    align-items: center;
+}
+.acerca{
+    width: 50%;
+    height: 65%;
+    margin-top: auto;
+    padding-left: 4%;
+}
+.minifooter{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentopt{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+.contentopt > li {
+    list-style-type: none ;
+    margin-right: 1%;
+    font-weight: 600;
+    cursor: pointer;
+}
+.name{
+    font-size: 100px;
+    font-weight: 600;
+}
+.mouse{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+.logonav{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+.start{
+    font-size: larger;
+    padding: 1%;
+    border: 3px solid white;
+    background: transparent;
+    cursor: pointer;
+}
+.text-draw{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 60%;
+}
+.text-draw > div{
+    width: 90%;
+    height: 100%;
+    outline: 2px solid white;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.text-draw > p{
+    width: fit-content;
+    height: fit-content;
+    margin-inline: auto;
+}
+.box{
+    width: 20%;
+    height: 100%;
+    outline: 2px solid white;
+    display: grid;
+    place-items: center;
+}
+.envios{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 50% 25%;
+}
+.title_abouteme{
+    margin-top: auto;
+}
+.info_about_me{
+    width: 40%;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: justify;
+}
+.hire{ 
+    font-size: larger;
+    padding: 1%;
+    border: 2px groove white;
+    background: transparent;
+    cursor: pointer;
+    width: 20%;
+}
+.descripcion{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 40%;
+}
+.descripcion > p{
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    font-size: large;
+}
+.numbers{
+    margin-left: auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: larger;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner{
+    width: auto;
+    height: 100%;
+    position: relative;
+   
+
+}
+.banner .list_opt{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 110%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    background-color: rgb(23, 171, 23);
+    transform: rotateZ(5deg) translate(-50%,-50%);
+}
+.list_opt > li{
+    margin-right: 1%;
+    color: black;
+}
+.list_opt2{
+    position: absolute;
+    left: 50%;
+    top: -1%;
+    z-index: 1;
+    width: 110%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(23, 171, 23);
+    transform: rotateZ(-5deg) translate(-50%,-50%);
+}
+.list_opt2 > li{
+    margin-right: 1%;
+    color: black;
+}
