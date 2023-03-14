@@ -9,14 +9,14 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <main> 
+    <main id="home"> 
         <nav class="opciones">
             <span class="logonav"></span> 
            <div class="contentopt">
-            <li>Home</li>
-        <li>Service</li>
-        <li>Portfolio</li>
-        <li>Blog</li>
+            <a href="#home">Home</a>
+        <a href="#service">Service</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
     </div>    
         <button class="start">Get in Touch</button>
     </nav>
@@ -28,7 +28,7 @@
                         <div class="mouse"></div>
                        </div>
     </main>
-    <footer> 
+    <footer id="service"> 
         <div class="text-draw">
             <p>Nuestor clientes</p>
             <p>Mas de 30 años en el servicio de desarrollo web</p>
@@ -62,5 +62,14 @@
                 <li>web Development</li></div>
         </div>
     </footer>
+    <div class="footer2" id="portfolio">
+       
+        
+    </div>
+    <div class="footer3" id="blog">
+        <div class="social1" ><button onclick="navigaToMiSocialMedia()"></button><p class="face">facebook</p></div>
+        <div class="social2"><button onclick="navigaToMiSocialMedia()"></button>instagram</div>
+        <div class="social3"><button onclick="navigaToMiSocialMedia()"></button>linkedIn</div>
+    </div>
 </body>
 </html>
